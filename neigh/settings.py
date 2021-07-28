@@ -129,7 +129,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Africa'
+TIME_ZONE = 'Africa/'
 
 USE_I18N = True
 
