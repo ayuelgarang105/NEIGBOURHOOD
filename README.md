@@ -29,7 +29,7 @@ As a user, I would like to:
 ## Getting started
 
 ### Prerequisites
-* python3.6
+* python3.8
 * virtual environment
 * pip
 
