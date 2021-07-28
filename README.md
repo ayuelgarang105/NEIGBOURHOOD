@@ -89,8 +89,7 @@ Open [localhost:8000](http://127.0.0.1:8000/)
 
 
 ## Testing the Application
-`python manage.py test instaClone`
-        
+`python manage.py test hood`
 ## Technologies Used
 
 * [Python3.8](https://docs.python.org/3/)
