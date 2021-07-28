@@ -104,4 +104,4 @@ Please email me at ayuelgarang105@gmail.com for any question or contributions,
 ## License 
 
 [MIT](LICENSE.md)  <br>
-Copyright 2021 © by Gabriel Ayuel 
+Copyright 2021 © by Gabriel Ayuel,
