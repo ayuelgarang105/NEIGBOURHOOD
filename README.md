@@ -75,7 +75,7 @@ Install dependancies that will create an environment for the app to run
 #### Make and run migrations
 ```bash
 python3 manage.py check
-python manage.py makemigrations gallery
+python manage.py makemigrations 
 python3 manage.py sqlmigrate gallery 0001
 python3 manage.py migrate
 ```
