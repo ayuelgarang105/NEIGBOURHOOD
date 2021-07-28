@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid">
+    <div class="text-center text-white" style="padding-top: 160px;padding-bottom: 176px">
+        <h1 style="font-size: 70px">Welcome to neighbourhoods</h1>
+        <p>Feel free to loop about everything happening in your neighborhood. </p>
+        <a href="{% url 'hood' %}" class="btn btn-sm btn-primary mt-4">view neighbourhoods</a>
+    </div>
+
+</div>
+<style>
+    body{
+        background-image: url('static/images/HOOD 2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+</style>
+
+{% endblock %}

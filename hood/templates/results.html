@@ -1,0 +1,38 @@
+{% extends 'base.html' %} 
+{% load crispy_forms_tags %} 
+{% load static %}
+{% block content %}
+<div class="container" style="margin-top:7%">
+    {% if results %}
+    <h5 class="text-white">Found {{results.count}} Business{{results.count|pluralize}}</h5>
+    <div class="row">
+        <div class="col-md-4">
+            {% for hood in results %}
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{hood.name}}
+                    </h5>
+                    <p class="card-text">{{hood.description}}</p>
+                    <p class="card-text">Owner: <small class="text-muted">
+                            {{ hood.user.user.username|title }}</small></p>
+                    <p class="card-text">Email <small>{{hood.email}}</small></p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <h4 class="text-black">Found 0 Business with the name you searched </h4>
+
+    </div>
+    {% endif %}
+</div>
+</div>
+<style>
+    body{
+        background-image: url('static/images/HOOD 2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+</style>
+{% endblock %}
