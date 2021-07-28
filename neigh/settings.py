@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hood',
     'bootstrap4',
-    'bootstrap4',
+    'bootstrap3',
     'crispy_for3s',
 ]
 
