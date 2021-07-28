@@ -68,7 +68,7 @@ ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
 DISABLE_COLLECTSTATIC=1
 ```
 
-#### Install dependancies
+#### Install dependancies,
 Install dependancies that will create an environment for the app to run
 `pip install -r requirements.txt`
 
