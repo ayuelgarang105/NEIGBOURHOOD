@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'hood',
     'bootstrap4',
     'bootstrap3',
-    'crispy_for3s',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
